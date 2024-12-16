@@ -6,7 +6,7 @@ const HeatmapCalendar = () => {
   const [purchaseData, setPurchaseData] = useState([]);
 
   useEffect(() => {
-    // Simulate loading purchase data
+
     const data = [
       { date: "2024-11-01", amount: 50.5, mostExpensiveItem: "Coffee" },
       { date: "2024-11-03", amount: 20.75, mostExpensiveItem: "Groceries" },
