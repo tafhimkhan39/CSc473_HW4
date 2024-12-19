@@ -1,0 +1,78 @@
+body{
+    background-color: #add0dc;
+}
+
+h1{
+    text-align: center;
+}
+  
+.color-empty {
+    fill: #ebedf0; 
+}
+
+.color-fifty {
+    fill: #cce698; 
+}
+
+.color-hundred {
+    fill: #81c876; 
+}
+
+.color-twohundred {
+    fill: #139b2e; 
+}
+.color-zero {
+    fill: rgb(232, 99, 99);
+}
+
+.color-overhundred {
+    fill: rgb(211, 60, 60);
+}
+.color-overfivehundred {
+    fill: red;
+}
+.heatmap {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 10px;
+}
+.month-box {
+    background-color: #a2aaad;
+    border: 5px solid rgb(7, 0, 0);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    .heatmap {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+    .month-box {
+      padding: 10px;
+    }
+}
+  
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.25rem;
+    }
+    .heatmap {
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+    .month-box {
+      padding: 8px;
+    }
+}
+
+  
+
+  
+  
+  
+
+  
